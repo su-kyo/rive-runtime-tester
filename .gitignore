@@ -9,6 +9,10 @@ dist/
 *.url
 *.tsbuildinfo
 
+.env
+.env.*
+!.env.example
+
 .chrome-headless-profile/
 
 vite.config.js
